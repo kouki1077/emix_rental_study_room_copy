@@ -1,0 +1,174 @@
+html,body{
+    width: 100%;
+}
+p img{
+    width: 100%;
+}
+img{
+    vertical-align: bottom;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header .inner{
+    display: flex;
+    width:1000px; 
+    margin: 0 auto;
+}
+header .inner .logo {
+    width:38%;
+}
+header .inner .time {
+    width:22%;
+}
+header .inner .tel {
+    padding-top:20px;
+    width:40%;
+}
+/*main*/
+.section-main{
+    background-color: #E2E3DB;
+    
+}
+.section-main .inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.section-main h1{
+    height: 650px;
+}
+/*emix*/
+.section-emix{
+    padding:60px 0 90px 0; background:#fff100;
+}
+.section-emix .inner{
+    width:1000px; margin: 0 auto;
+}
+.section-emix .nayami{
+    margin-bottom:50px;
+}
+/* reg */
+.section-reg{
+    background:url(img/bar_back.png); 
+    width:1000px; 
+    height:175px; 
+    position:relative; 
+    top:-50px; 
+    margin-bottom:-53px; 
+    z-index:100; 
+    display:block;
+    display: flex;
+    
+}
+.section-reg .tel{
+    margin:80px 25px -50px 80px; 
+    width:40%;}
+.section-reg .inq{
+    margin:70px 0 -50px 0; 
+    width:40.5%;
+}
+.section-reg .inq_last{
+    margin:20px 0 -50px 0; 
+    width:40.5%;
+}
+/*point*/
+.section-point{
+    background-color: #CBCCC5; 
+    width:100%;
+}
+.section-point .inner{
+    width:1000px; 
+    margin: 0 auto;
+}
+.section-point .kaiketsu{
+    width:63%; 
+    position:relative; 
+    top:-95px; 
+    margin:0 auto -140px auto;
+}
+.section-point .point{
+    margin-bottom:50px;
+}
+
+/*emix-second*/
+.section-emix-second{
+    padding:60px 0 0 0;
+    background:#fff100;
+}
+.section-emix-second .inner{
+    width:1000px; 
+    margin: 0 auto;
+}
+.section-emix-second .inner .koe p,.section-emix-second .inner .koe h3{
+    margin-top:-7px;
+}
+/*use*/
+.section-use{
+    padding:60px 0 60px 0; 
+    background:#333333;
+}
+.section-use .inner{
+    width:1000px;
+    margin: 0 auto;
+}
+/*map*/
+.section-map{
+    padding:50px 0 0 0; 
+    background:#fff;
+}
+.section-map .inner{
+    width:1000px;
+    margin: 0 auto;
+}
+.section-map .map img{
+    width:20%; 
+    margin:40px 0;
+}
+
+/*footer*/
+footer{
+    width:100%; 
+    background:#ff8207; 
+    margin:0; 
+    padding:0; 
+    height:90px;
+}
+footer .inner{
+    width:1000px; 
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .link{
+    width:7.5%; 
+    padding-top:25px;
+}
+footer .credit{
+    width:33%; 
+    padding-top:25px;
+}
